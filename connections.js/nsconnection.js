@@ -3,7 +3,7 @@ request({
     url:"https://api.staging.integrator.io/v1/connections",
     method:"POST",
     headers:{
-        "Authorization":"Bearer bf626c00d1b842598fd5cb611de13a9a"
+        "Authorization":"Bearer {token}"
     },
     json:true,
     body:{
