@@ -1,5 +1,6 @@
 function suite(){
+  var f=nlapiGetRecordId();
     var m=nlapiGetFieldValue('phone');
-    nlapiSubmitField('customer',48021,'phone',m);
-   nlapiSubmitField('customer',48021,'custentityphone',m);
+    nlapiSubmitField('customer',f,'phone',m);
+   nlapiSubmitField('customer',f,'custentityphone',m);
  }

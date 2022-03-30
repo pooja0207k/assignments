@@ -1,3 +1,6 @@
-function restlet1(datain){
-return nlapiLoadRecord(datain.recordtype,datain.tranid,datain.total);
+function sayhi()
+{
+    var o = new Object();
+    o.sayhi = 'Hello World! ';
+    return JSON.stringify(o);
 }

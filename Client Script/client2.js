@@ -1,4 +1,5 @@
 function fieldchanged(){
+  var k=nlapiGetRecordId();
     var newphone=nlapiGetFieldValue('phone');
-  nlapiSubmitField('customer',47949,'phone',newphone);
+  nlapiSubmitField('customer',k,'phone',newphone);
 }
